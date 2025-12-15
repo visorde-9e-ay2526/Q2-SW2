@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(obgh.jpg);
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.hero-image {
+    margin: 20px;
+    border-radius: 20px;
+    padding: 3px;
+}
+.vertical-layout {
+    margin: 20px;
+    flex: 2;
+    max-width: 700px;
+    width: 100%;
+}
+.office-hours {
+    margin: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: left;
+    width: 325px;
+    flex: 1;
+    max-width: 350px;
+    min-width: 300px;
+}
+.contact {
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 20px;
+    align-items: flex-start;
+}
+.contact form {
+  width: auto !important;
+  flex: 2;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.page-content {
+    flex: 1;
+}
